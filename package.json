@@ -1,0 +1,17 @@
+{
+  "name": "moodiary-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mood diary - Track your mood with a visual canvas",
+  "workspaces": [
+    "moodiary"
+  ],
+  "scripts": {
+    "start": "cd moodiary && npm start",
+    "ios": "cd moodiary && npm run ios",
+    "android": "cd moodiary && npm run android",
+    "web": "cd moodiary && npm run web",
+    "lint": "cd moodiary && npm run lint",
+    "reset-project": "cd moodiary && npm run reset-project"
+  }
+}
